@@ -4,20 +4,19 @@ layout: page
 
 # HOME
 
-<img src="https://jiahao-zhu.github.io/jiahaozhu.jpg" class="floatpic" width="240" height="360">
+<img src="https://jiahao-zhu.github.io/jiahaozhu.jpg" class="floatpic" width="360" height="480">
 
 Greeting! Welcome to my website! 
 
-My name is **Jiahao Zhu (朱 加昊)**. I am a research master majoring in **Marketing** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is [my **CV**][2] (last updated in May 2023).
+My name is **Jiahao Zhu (朱 加昊)**. I am a research master majoring in **Marketing** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is my [**CV**][2] (last updated in May 2023).
 
-![][image-1]
 ## Research Interests
 
 My broader research interests lie in the **psychological formal model** (for a glimpse, see [Borsboom et al., 2021][3]) and **network psychometrics** (for a brief review and discussion, see [Borsboom, 2022][4]). 
 
 In detail, my current research aims to construct a conceptual, even computational model of **emotional dynamics in verbal expression**, and develop a novel method to automatically analyze them from text data. The ultimate goal of this topic is to have a deeper understanding of why people express emotion and thus help people regulate their expression.
 
-Regarding my ideal research, I’d like to introduce Dr. Dalege and his colleagues’ insightful work ([2023, preprint][5]). This paper proposed a formal model of intra- and inter-personal beliefs. The most attractive point is that it draws on statistical physics concepts like spin, energy, and temperature to depict belief systems and their dynamics. 
+To express my research interests accurately, I would like to share one of my preferred studies ([Dalege, Galesic, & Olsson, 2023, preprint][5]). This particular paper proposed a formal model of intra- and inter-personal beliefs. The most attractive point is that it draws on statistical physics concepts like spin, energy, and temperature to depict belief systems and their dynamics. I hope that my future work will be like this paper.
 
 I wish to explore the potential of psychological formal models and their practical implements on our well-being.
 
@@ -34,5 +33,3 @@ I wish to explore the potential of psychological formal models and their practic
 [4]:	https://doi.org/10.1007/s11336-022-09851-z
 [5]:	https://osf.io/368jz
 [6]:	https://caihanlin.com/
-
-[image-1]:	https://jiahao-zhu.github.io/jiahao.jpg
