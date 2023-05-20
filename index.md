@@ -4,11 +4,11 @@ layout: page
 
 # About Me
 
-<img src="https://caihanlin.com/caihanlin.jpg" class="floatpic" width="360" height="480">
+<img src="https://jiahao-zhu.com/jiahaozhu.JPG" class="floatpic" width="360" height="480">
 
 Here is **Jiahao Zhu (朱 加昊)**.
 
-I am a research master majoring in **Management Science & Engineering** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is [my Resume][2](last updated in May 2023).
+I am a research master majoring in **Management Science & Engineering** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is [my Resume][2] (last updated in May 2023).
 
 ## Research Interests
 
@@ -26,7 +26,7 @@ My current research focuses on practical problems that artificial intelligence f
 - **Jun 2022：**Online Research Intern at Cambridge Centre for the Integration of Science, Technology and Culture, advised by [Prof. Pietro Liò][5].
 
 [1]:	https://isbf.sysu.edu.cn/zh-hans/teacher/260
-[2]:	http://jiahao-zhu.hithub.io/files/CV_Jiahao_Zhu
+[2]:	http://jiahao-zhu.hithub.io/files/CV_Jiahao_Zhu.pdf
 [3]:	https://fzu-fly.online/
 [4]:	https://dqxy.fzu.edu.cn/en/info/1009/1072.htm
 [5]:	https://www.cl.cam.ac.uk/~pl219/
