@@ -4,9 +4,11 @@ layout: page
 
 # HOME
 
-<img src="https://jiahao-zhu.github.io/jiahaozhu.jpg" class="floatpic" width="240" height="360">
+<img src="https://Jiahao-ZHU.github.io/jiahaozhu.jpg" class="floatpic" width="240" height="360">
 
+<br />
 Greeting! Welcome to my website! 
+
 <br />
 My name is **Jiahao Zhu (朱 加昊)**. I am a research master majoring in **Marketing** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is my [**CV**][2] (last updated in May 2023).
 
