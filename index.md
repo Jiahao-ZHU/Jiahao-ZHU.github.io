@@ -4,12 +4,13 @@ layout: page
 
 # HOME
 
-Greeting! Here is **Jiahao Zhu (朱 加昊)**.
+<img src="https://jiahao-zhu.github.io/jiahaozhu.jpg" class="floatpic" width="240" height="360">
 
-\<br /\>
+Greeting! Welcome to my website! 
 
-I am a research master majoring in **Marketing** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is [my CV][2] (last updated in May 2023).
+My name is **Jiahao Zhu (朱 加昊)**. I am a research master majoring in **Marketing** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is [my **CV**][2] (last updated in May 2023).
 
+![][image-1]
 ## Research Interests
 
 My broader research interests lie in the **psychological formal model** (for a glimpse, see [Borsboom et al., 2021][3]) and **network psychometrics** (for a brief review and discussion, see [Borsboom, 2022][4]). 
@@ -33,3 +34,5 @@ I wish to explore the potential of psychological formal models and their practic
 [4]:	https://doi.org/10.1007/s11336-022-09851-z
 [5]:	https://osf.io/368jz
 [6]:	https://caihanlin.com/
+
+[image-1]:	https://jiahao-zhu.github.io/jiahao.jpg
