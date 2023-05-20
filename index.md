@@ -6,7 +6,7 @@ layout: page
 
 Greeting! Here is **Jiahao Zhu (朱 加昊)**.
 
-I am a research master majoring in **Management Science & Engineering** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is [my CV][2] (last updated in May 2023).
+I am a research master majoring in **Marketing** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is [my CV][2] (last updated in May 2023).
 
 ## Research Interests
 
