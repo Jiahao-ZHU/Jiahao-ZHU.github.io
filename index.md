@@ -4,7 +4,7 @@ layout: page
 
 # HOME
 
-<img src="https://Jiahao-ZHU.github.io/jiahaozhu.jpg" class="floatpic" width="240" height="360">
+<img src="[https://Jiahao-ZHU.github.io/jiahaozhu.jpg] https://github.com/Jiahao-ZHU/Jiahao-ZHU.github.io/blob/main/jiahaozhu.JPG" class="floatpic" width="240" height="360">
 
 <br />
 Greeting! Welcome to my website! 
@@ -15,11 +15,14 @@ My name is **Jiahao Zhu (朱 加昊)**. I am a research master majoring in **Mar
 ## Research Interests
 
 My broader research interests lie in the **psychological formal model** (for a glimpse, see [Borsboom et al., 2021][3]) and **network psychometrics** (for a brief review and discussion, see [Borsboom, 2022][4]). 
+<br />
 
 In detail, my current research aims to construct a conceptual, even computational model of **emotional dynamics in verbal expression**, and develop a novel method to automatically analyze them from text data. The ultimate goal of this topic is to have a deeper understanding of why people express emotion and thus help people regulate their expression.
 
+<br />
 To express my research interests accurately, I would like to share one of my preferred studies ([Dalege, Galesic, & Olsson, 2023, preprint][5]). This particular paper proposed a formal model of intra- and inter-personal beliefs. The most attractive point is that it draws on statistical physics concepts like spin, energy, and temperature to depict belief systems and their dynamics. I hope that my future work will be like this paper.
 
+<br />
 I wish to explore the potential of psychological formal models and their practical implements on our well-being.
 
 ## News and Updates
