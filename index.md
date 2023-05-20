@@ -12,7 +12,7 @@ I am a research master majoring in **Management Science & Engineering** at Sun Y
 
 ## Research Interests
 
-My current research aims to construct a conceptual, even computational model of **emotional dynamics in verbal expression**, and develop a novel method to automatically analyze them from text data. Thus, my broader research interests lie in the **psychological formal model** (for a glimpse, see [Borsboom et al., 2021][3]) and **network psychometrics** (for a review, see [Borsboom, 2022][4]). 
+My current research aims to construct a conceptual, even computational model of **emotional dynamics in verbal expression**, and develop a novel method to automatically analyze them from text data. Thus, my broader research interests lie in the **psychological formal model** (for a glimpse, see [Borsboom et al., 2021][3]) and **network psychometrics** (for a brief review and discussion, see [Borsboom, 2022][4]). 
 
 ## News and Updates
 
@@ -26,7 +26,7 @@ My current research aims to construct a conceptual, even computational model of 
 - **Jun 2022：**Online Research Intern at Cambridge Centre for the Integration of Science, Technology and Culture, advised by [Prof. Pietro Liò][7].
 
 [1]:	https://isbf.sysu.edu.cn/zh-hans/teacher/260
-[2]:	http://jiahao-zhu.hithub.io/file/CV-jiahaozhu.pdf
+[2]:	https://jiahao-zhu.hithub.io/file/CV-jiahaozhu.pdf
 [3]:	https://doi.org/10.1177/1745691620969647
 [4]:	https://doi.org/10.1007/s11336-022-09851-z
 [5]:	https://fzu-fly.online/
