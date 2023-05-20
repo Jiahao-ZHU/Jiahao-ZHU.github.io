@@ -2,9 +2,11 @@
 layout: page
 ---
 
-# About Me
+# HOME
 
 Greeting! Here is **Jiahao Zhu (朱 加昊)**.
+
+\<br/\>
 
 I am a research master majoring in **Marketing** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is [my CV][2] (last updated in May 2023).
 
@@ -26,7 +28,7 @@ I wish to explore the potential of psychological formal models and their practic
 
 
 [1]:	https://isbf.sysu.edu.cn/zh-hans/teacher/260
-[2]:	https://jiahao-zhu.github.io/file/CV-jiahaozhu.pdf
+[2]:	https://jiahao-zhu.github.io/file/CV_Jiahao_Zhu.pdf
 [3]:	https://doi.org/10.1177/1745691620969647
 [4]:	https://doi.org/10.1007/s11336-022-09851-z
 [5]:	https://osf.io/368jz
