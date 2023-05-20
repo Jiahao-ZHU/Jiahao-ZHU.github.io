@@ -7,7 +7,7 @@ url: https://caihanlin.com
 # Owner/author information
 owner:
   name: Jiahao Zhu
-  avatar: jiahaozhu.jpg
+  avatar: hanlin.jpg
 #  bio:
   email: zhujh33@mail2.sysu.edu.cn
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
@@ -32,18 +32,18 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About Me
-    url: /
+  - title: Home
+    url: https://jiahao-zhu.github.io/
   - title: Publications
-    url: /publications/
+    url: https://jiahao-zhu.github.io/publications/
   - title: Projects
-    url: /projects/
+    url: https://jiahao-zhu.github.io/projects/
   - title: Awards
-    url: /awards/
+    url: https://jiahao-zhu.github.io/awards/
   - title: Hobbies
-    url: /hobbies/
+    url: https://jiahao-zhu.github.io/hobbies/
   - title: Blogs
-    url: /blogs/
+    url: https://jiahao-zhu.github.io/blogs/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
