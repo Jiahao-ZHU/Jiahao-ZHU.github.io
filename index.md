@@ -4,7 +4,7 @@ layout: page
 
 # HOME
 
-<img src="https://jiahao-zhu.github.io/caihanlin.jpg" class="floatpic" width="240" height="360">
+<img src="https://jiahao-zhu.github.io/jiahaozhu.jpg" class="floatpic" width="240" height="360">
 
 <br />
 Greeting! Welcome to my website! 
