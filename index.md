@@ -31,7 +31,8 @@ I wish to explore the potential of psychological formal models and their practic
 ## News and Updates
 
 - **<font color='red'>[TOP]</font> I am actively applying for a remote research assistant position aligned with my research interests!** Anyone who is seeking a competitive and self-motivated research assistant is welcome to contact me freely.
-- **May 2023** Happy to create this website! Special thanks to [Hanlin][6] for his detailed and generous [tutorials][7] and [open-source documents][8].
+<br />
+- **[May 2023]** Happy to create this website! Special thanks to [Hanlin][6] for his detailed and generous [tutorials][7] and [open-source documents][8].
 
 
 [1]:	https://isbf.sysu.edu.cn/zh-hans/teacher/260
