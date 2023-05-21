@@ -12,6 +12,9 @@ Greeting! Welcome to my website!
 <br />
 My name is **Jiahao Zhu (朱 加昊)**. I am a research master majoring in **Marketing** at Sun Yat-sen University, China. My concentration is consumer behavior. I am extremely fortunate to be advised by [Prof. Zengxiang Chen][1]. If you want to find more details about me, here is my [**CV**][2] (last updated in May 2023).
 
+<br />
+I am trying to convert to psychology and pursue a Ph.D. program in psychology. 
+
 ## Research Interests
 
 My broader research interests lie in the **psychological formal model** ([Borsboom et al., 2021][3]) and **network psychometrics** (for a brief review and discussion, see [Borsboom, 2022][4]). 
@@ -27,8 +30,7 @@ I wish to explore the potential of psychological formal models and their practic
 
 ## News and Updates
 
-- **<font color='red'>[TOP]</font>** I plan to convert to psychology and pursue a master’s program in psychology.
-- **<font color='red'>[TOP]</font> I am actively searching for a remote research assistant position aligned with my research interests!** Anyone who is seeking a competitive and self-motivated research assistant is welcome to contact me freely.
+- **<font color='red'>[TOP]</font> I am actively applying for a remote research assistant position aligned with my research interests!** Anyone who is seeking a competitive and self-motivated research assistant is welcome to contact me freely.
 - **May 2023** Happy to create this website! Special thanks to [Hanlin][6] for his detailed and generous [tutorials][7] and [open-source documents][8].
 
 
