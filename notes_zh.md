@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /notes\_zh/index.html
-title: NOTES\_ZH
+permalink: /notes_zh/index.html
+title: NOTES_ZH
 ---
 
 # 笔记
