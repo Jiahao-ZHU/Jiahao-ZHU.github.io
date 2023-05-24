@@ -3,7 +3,7 @@ layout: page
 permalink: /notes/markovchain/index.html
 title: notes-markovchain
 ---
-<!DOCTYPE html>
+
 <html>
 <head>
 <title>MathJax TeX Test Page</title>
