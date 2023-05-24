@@ -14,6 +14,6 @@ title: notes-markovchain
 </head>
 <body>
  one-step transition frequency matrix   $$ F = \begin{pmatrix} F_{11} & \dots  & \dots & F_{1m}\\F_{21} & \dots &\dots & F_{2m}\\ \vdots & \vdots &\vdots &\vdots \\ F_{m1} & \dots & \dots & F_{mm}\end{pmatrix} $$
- $$F_{j}
+ $$ F_{j} $$
 </body>
 </html>
