@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /notes_zh/index.html
-title: NOTES_ZH
+permalink: /notes\_zh/index.html
+title: NOTES\_ZH
 ---
 
 # 笔记
@@ -15,5 +15,8 @@ title: NOTES_ZH
 
 <br />
 希望此页面中的内容能够帮助到您！如有任何疏漏和意见，请通过电子邮件联系我，谢谢！
+
+<br />
+## 数学
 
 [1]:	https://jiahao-zhu.github.io/notes/

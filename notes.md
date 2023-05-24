@@ -16,4 +16,10 @@ According to the Feynman learning method, I will try to make my notes as easy to
 <br />
 Hoping my note may help you to some extent. And If you find any problems or have any comments on my notes, please feel free to contact me by email! 
 
+<br />
+## Mathematics
+
+- [Markov Chain Model][2]
+
 [1]:	https://jiahao-zhu.github.io/notes_zh/
+[2]:	http://jiahao-zhu.github.io/notes/markovchain/
