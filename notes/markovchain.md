@@ -13,7 +13,6 @@ title: notes-markovchain
 </script>
 </head>
 <body>
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+ one-step transition frequency matrix   $$ F = \begin{pmatrix} F{11} & \dots  & \dots & F{1m}\\F{21} & \dots &\dots & F{2m}\\ \vdots & \vdots &\vdots &\vdots \\ F{m1} & \dots & \dots & F{mm}\end{pmatrix} $$
 </body>
 </html>
