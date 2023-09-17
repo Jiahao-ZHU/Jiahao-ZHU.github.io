@@ -17,9 +17,11 @@ According to the Feynman learning method, I will try to make my notes as easy to
 Hoping my note may help you to some extent. And If you find any problems or have any comments on my notes, please feel free to contact me by email! 
 
 <br />
-## Mathematics
 
-- [Markov Chain Model][2]
+## Causal Inference (slides)
+- [00 Scientific Theory][2]
+- [01 Causality][3]
 
 [1]:	https://jiahao-zhu.github.io/notes_zh/
-[2]:	http://jiahao-zhu.github.io/notes/markovchain/
+[2]:	https://jiahao-zhu.github.io/file/Causal_Inference_00_Scientific_theory___Slides.pdf
+[3]:	https://jiahao-zhu.github.io/file/Causal_Inference_01_Causality___Slides.pdf
