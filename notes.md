@@ -21,7 +21,9 @@ Hoping my note may help you to some extent. And If you find any problems or have
 ## Causal Inference (slides)
 - [00 Scientific Theory][2]
 - [01 Causality][3]
+- [02 Causal Graph][4]
 
 [1]:	https://jiahao-zhu.github.io/notes_zh/
 [2]:	https://jiahao-zhu.github.io/file/Causal_Inference_00_Scientific_theory___Slides.pdf
 [3]:	https://jiahao-zhu.github.io/file/Causal_Inference_01_Causality___Slides.pdf
+[4]:	https://jiahao-zhu.github.io/file/Causal_Inference_02_Causal_Graph___Slides.pdf
