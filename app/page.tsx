@@ -9,9 +9,11 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="pt-16 pb-12 flex gap-10 items-start">
-        <div className="w-[140px] h-[140px] rounded-full bg-gradient-to-br from-gray-300 to-gray-400 flex-shrink-0 flex items-center justify-center text-5xl text-gray-500 font-serif">
-          J
-        </div>
+        <img
+          src="/jiahaozhu.jpg"
+          alt="Jiahao Zhu"
+          className="w-[140px] h-[140px] rounded-full object-cover object-[center_20%] flex-shrink-3"
+        />
         <div>
           <h1 className="font-serif text-4xl font-bold leading-tight tracking-tight mb-2">
             Jiahao Zhu
