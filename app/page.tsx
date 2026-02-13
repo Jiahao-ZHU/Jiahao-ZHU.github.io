@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { researchProjects } from "@/content/research";
+import { getAllPosts } from "@/lib/mdx";
 
 export default function HomePage() {
+  const recentPosts = getAllPosts().slice(0, 4);
+
   return (
     <>
       {/* Hero */}
@@ -73,10 +76,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Recent Notes (placeholder until blog is built) */}
+      {/* Recent Notes */}
       <section className="py-10 border-t border-border">
         <div className="section-label">Recent Notes</div>
-        <p className="text-sm text-text-secondary">Coming soon.</p>
+        <div>
+          {recentPosts.map((post) => (
+            <div
+              key={post.slug}
+              className="flex justify-between items-baseline py-3.5 border-b border-border last:border-b-0"
+            >
+              <Link
+                href={`/blog/${post.slug}`}
+                className="text-base text-text hover:text-accent transition-colors"
+              >
+                {post.title}
+              </Link>
+              <span className="text-[13px] text-text-secondary flex-shrink-0 ml-6">
+                {new Date(post.date).toLocaleDateString("en-US", {
+                  month: "short",
+                  year: "numeric",
+                })}
+              </span>
+            </div>
+          ))}
+        </div>
       </section>
     </>
   );
