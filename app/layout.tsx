@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, JetBrains_Mono } from "next/font/google";
+import { Nav } from "@/components/Nav";
+import { Footer } from "@/components/Footer";
 import "./globals.css";
 
 const inter = Inter({
@@ -36,7 +38,11 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${playfair.variable} ${jetbrains.variable}`}
     >
-      <body className="font-sans text-base leading-[1.75]">{children}</body>
+      <body className="font-sans text-base leading-[1.75]">
+        <Nav />
+        <main className="max-w-content mx-auto px-6">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
