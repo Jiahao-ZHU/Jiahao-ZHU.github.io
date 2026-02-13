@@ -10,7 +10,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="pt-16 pb-12 flex gap-10 items-start">
         <img
-          src="/jiahaozhu.jpg"
+          src="/images/jiahaozhu.jpg"
           alt="Jiahao Zhu"
           className="w-[140px] h-[140px] rounded-full object-cover object-[center_20%] flex-shrink-3"
         />

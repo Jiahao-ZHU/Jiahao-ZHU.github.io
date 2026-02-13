@@ -41,7 +41,7 @@ Replace the content below to make it your own:
 | Publications      | `content/publications.ts`    | TypeScript array |
 | Projects          | `content/projects.ts`        | TypeScript array |
 | CV                | `public/CV_Jiahao_2026.pdf`  | PDF              |
-| Profile photo     | `public/jiahaozhu.jpg`       | JPG              |
+| Profile photo     | `public/images/jiahaozhu.jpg`| JPG              |
 
 For detailed content editing instructions, see [`docs/CONTENT-GUIDE.md`](docs/CONTENT-GUIDE.md).
 
