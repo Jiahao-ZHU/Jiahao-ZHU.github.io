@@ -40,6 +40,17 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} ${jetbrains.variable}`}
     >
       <body className="font-sans text-base leading-[1.75]">
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var t = localStorage.getItem('theme');
+                var d = t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches);
+                if (d) document.documentElement.classList.add('dark');
+              })();
+            `,
+          }}
+        />
         <Nav />
         <main className="max-w-content mx-auto px-6">{children}</main>
         <Footer />
