@@ -40,8 +40,8 @@ Replace the content below to make it your own:
 | Research projects | `content/research.ts`        | TypeScript array |
 | Publications      | `content/publications.ts`    | TypeScript array |
 | Projects          | `content/projects.ts`        | TypeScript array |
-| CV                | `public/CV_Jiahao_2026.pdf`  | PDF              |
-| Profile photo     | `public/images/jiahaozhu.jpg`| JPG              |
+| CV                | `public/assets/about/CV_Jiahao_2026_v2.pdf`  | PDF    |
+| Profile photo     | `public/assets/about/jiahaozhu.jpg`          | JPG    |
 
 For detailed content editing instructions, see [`docs/CONTENT-GUIDE.md`](docs/CONTENT-GUIDE.md).
 

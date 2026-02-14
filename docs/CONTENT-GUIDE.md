@@ -34,10 +34,10 @@ def example():
 
 ### Images
 
-Place image in `public/images/`, then:
+Place image in `public/assets/blog/`, then:
 
 ```markdown
-![Alt text](/images/my-figure.png)
+![Alt text](/assets/blog/my-figure.png)
 ```
 
 ### Links
@@ -55,5 +55,6 @@ Place image in `public/images/`, then:
 | Research | `content/research.ts` | TypeScript array |
 | Publications | `content/publications.ts` | TypeScript array |
 | Projects | `content/projects.ts` | TypeScript array |
-| CV | `public/CV_Jiahao_2026.pdf` | PDF |
-| Images | `public/images/` | PNG/JPG/SVG |
+| CV | `public/assets/about/CV_Jiahao_2026_v2.pdf` | PDF |
+| Blog images | `public/assets/blog/` | PNG/JPG/SVG |
+| Research PDFs | `public/assets/research/` | PDF |

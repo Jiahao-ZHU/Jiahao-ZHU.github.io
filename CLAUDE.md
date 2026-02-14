@@ -31,7 +31,7 @@ Personal academic website built with Next.js 15 (static export), deployed to Git
    - **Inline math**: `$x^2 + y^2 = z^2$`
    - **Display math**: `$$\int_0^\infty f(x) dx$$`
    - **Code blocks**: Use triple backticks with language identifier
-   - **Images**: Place in `public/images/` and reference as `/images/filename.png`
+   - **Images**: Place in `public/assets/blog/` and reference as `/assets/blog/filename.png`
 4. The post automatically appears on `/blog` list and homepage "Recent Notes"
 5. Commit and push to `main` — GitHub Actions deploys automatically
 
@@ -47,8 +47,11 @@ Edit `content/research.ts` — add a new object to the `researchProjects` array:
   institution: "Institution Name",
   period: "YYYY – YYYY",
   description: "Brief description of the project.",
+  pdf: "/assets/research/filename.pdf",  // optional, place PDF in public/assets/research/
 }
 ```
+
+Research projects are listed in reverse chronological order (newest first). When adding a new project, insert it at the correct position in the array.
 
 ### Adding a New Publication
 
@@ -82,7 +85,7 @@ Edit `content/projects.ts` — add a new object to the `projects` array:
 
 ### Updating CV
 
-Replace `public/CV_Jiahao_2026.pdf` with the new version. Keep the same filename or update the link in `app/page.tsx`.
+Replace `public/assets/about/CV_Jiahao_2026_v2.pdf` with the new version. Keep the same filename or update the link in `app/page.tsx`.
 
 ## Architecture Notes
 

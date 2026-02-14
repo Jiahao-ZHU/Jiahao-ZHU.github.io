@@ -10,7 +10,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="pt-16 pb-12 flex gap-10 items-start">
         <img
-          src="/images/jiahaozhu.jpg"
+          src="/assets/about/jiahaozhu.jpg"
           alt="Jiahao Zhu"
           className="w-[140px] h-[140px] rounded-full object-cover object-[center_20%] flex-shrink-3"
         />
@@ -38,7 +38,7 @@ export default function HomePage() {
                 label: "Google Scholar",
                 href: "#",
               },
-              { label: "CV \u2193", href: "/CV_Jiahao_2026_v2.pdf" },
+              { label: "CV \u2193", href: "/assets/about/CV_Jiahao_2026_v2.pdf" },
             ].map((link) => (
               <a
                 key={link.label}

@@ -5,6 +5,7 @@ export interface ResearchProject {
   institution: string;
   period: string;
   description: string;
+  pdf?: string;
 }
 
 export const researchProjects: ResearchProject[] = [
@@ -25,6 +26,16 @@ export const researchProjects: ResearchProject[] = [
     period: "2024 – 2025",
     description:
       "Engineered a continuous joystick-based Approach-Avoidance Task in PsychoPy with millisecond precision to investigate cognitive mechanisms underlying academic anxiety.",
+  },
+  {
+    title: "Emotion Labeling Through the Lens of Predictive Coding",
+    href: "/research#emotion-labeling",
+    role: "Position Paper (Course Project)",
+    institution: "Radboud University",
+    period: "2024",
+    description:
+      "Proposed a predictive coding account to reconcile conflicting evidence on whether naming emotions dampens or intensifies them. Argued that prediction uncertainty is the key mechanism, modulated by label-experience intensity mismatch and labeling freedom.",
+    pdf: "/assets/research/emotion-labeling-predictive-coding-2024.pdf",
   },
   {
     title: "Emotional Co-Expressions: A Network Perspective",

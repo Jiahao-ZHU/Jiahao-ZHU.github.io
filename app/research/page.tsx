@@ -26,6 +26,16 @@ export default function ResearchPage() {
             <p className="text-[15px] leading-[1.7] text-text-secondary">
               {project.description}
             </p>
+            {project.pdf && (
+              <a
+                href={project.pdf}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 text-[13px] text-accent underline underline-offset-2"
+              >
+                PDF
+              </a>
+            )}
           </article>
         ))}
       </div>
