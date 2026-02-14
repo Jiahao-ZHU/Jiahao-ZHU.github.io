@@ -38,7 +38,7 @@ export default function HomePage() {
                 label: "Google Scholar",
                 href: "#",
               },
-              { label: "CV \u2193", href: "/CV_Jiahao_2026.pdf" },
+              { label: "CV \u2193", href: "/CV_Jiahao_2026_v2.pdf" },
             ].map((link) => (
               <a
                 key={link.label}
