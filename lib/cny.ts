@@ -60,7 +60,9 @@ export type CnyStatus = {
  * edge cases near year boundaries.
  */
 export function getCnyStatus(today: Date = new Date()): CnyStatus {
-  const currentYear = today.getFullYear();
+  // Normalize to start of day for date-only comparison
+  const todayMidnight = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const currentYear = todayMidnight.getFullYear();
   // Check current year and next year (CNY can be in Jan/Feb)
   const yearsToCheck = [currentYear, currentYear + 1, currentYear - 1];
 
@@ -74,7 +76,7 @@ export function getCnyStatus(today: Date = new Date()): CnyStatus {
     const endDate = new Date(cnyDate);
     endDate.setDate(endDate.getDate() + LANTERN_OFFSET);
 
-    if (today >= startDate && today <= endDate) {
+    if (todayMidnight >= startDate && todayMidnight <= endDate) {
       return { active: true, zodiac: data.zodiac, year };
     }
   }
