@@ -2,7 +2,7 @@ import Link from "next/link";
 import { researchProjects } from "@/content/research";
 import { getAllPosts } from "@/lib/mdx";
 import { CnyGreeting } from "@/components/CnyGreeting";
-import { CnyHeroBackground } from "@/components/CnyHeroBackground";
+
 
 export default function HomePage() {
   const recentPosts = getAllPosts().slice(0, 4);
@@ -10,8 +10,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-16 pb-12 flex gap-10 items-start relative">
-        <CnyHeroBackground />
+      <section className="pt-16 pb-12 flex gap-10 items-start">
         <img
           src="/assets/about/jiahaozhu.jpg"
           alt="Jiahao Zhu"

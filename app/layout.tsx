@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display, JetBrains_Mono } from "next/font/google";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
+import { CnyThemeProvider } from "@/components/CnyThemeProvider";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 
@@ -47,10 +48,14 @@ export default function RootLayout({
                 var t = localStorage.getItem('theme');
                 var d = t === 'dark';
                 if (d) document.documentElement.classList.add('dark');
+                var c={2025:"01-29",2026:"02-17",2027:"02-06",2028:"01-26",2029:"02-13",2030:"02-03"};
+                var y=new Date().getFullYear(),i;
+                for(i=-1;i<=1;i++){var e=c[y+i];if(e){var n=new Date((y+i)+"-"+e+"T00:00:00"),s=new Date(n);s.setDate(s.getDate()-7);var f=new Date(n);f.setDate(f.getDate()+14);var now=new Date();now.setHours(0,0,0,0);if(now>=s&&now<=f){document.documentElement.classList.add("cny");break}}}
               })();
             `,
           }}
         />
+        <CnyThemeProvider />
         <Nav />
         <main className="max-w-content mx-auto px-6">{children}</main>
         <Footer />

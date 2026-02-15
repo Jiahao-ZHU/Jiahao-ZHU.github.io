@@ -1,31 +1,18 @@
 // components/LanternIcon.tsx
+// Source: Fluent Emoji High Contrast — MIT License
+// https://icon-sets.iconify.design/fluent-emoji-high-contrast/red-paper-lantern/
 
 export function LanternIcon({ className }: { className?: string }) {
   return (
     <svg
-      width="14"
-      height="14"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      width="16"
+      height="16"
+      viewBox="0 0 32 32"
+      fill="currentColor"
       className={className}
       aria-hidden="true"
     >
-      {/* Top hook */}
-      <line x1="12" y1="1" x2="12" y2="4" />
-      {/* Top cap */}
-      <line x1="8" y1="4" x2="16" y2="4" />
-      {/* Lantern body (elliptical) */}
-      <ellipse cx="12" cy="12" rx="6" ry="8" />
-      {/* Center horizontal line (decorative band) */}
-      <line x1="6" y1="12" x2="18" y2="12" />
-      {/* Bottom cap */}
-      <line x1="9" y1="20" x2="15" y2="20" />
-      {/* Bottom tassel */}
-      <line x1="12" y1="20" x2="12" y2="23" />
+      <path d="M13.5 2A1.5 1.5 0 0 0 12 3.5V5h-.127a9 9 0 0 0-2.581 2h13.416a9 9 0 0 0-2.58-2H20V3.5A1.5 1.5 0 0 0 18.5 2zm-6.277 9c.17-.749.433-1.462.777-2.127V9h16v-.127c.344.665.607 1.378.777 2.127zM7 15v-2h18v2zm4.873 12a9 9 0 0 1-2.581-2h13.416a9 9 0 0 1-2.58 2H20v1.5a1.5 1.5 0 0 1-1.5 1.5h-5a1.5 1.5 0 0 1-1.5-1.5V27zM8 23.127A9 9 0 0 1 7.223 21h17.554A9 9 0 0 1 24 23.127V23H8zM7 19v-2h18v2z" />
     </svg>
   );
 }
