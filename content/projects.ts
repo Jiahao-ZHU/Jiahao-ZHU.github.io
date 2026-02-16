@@ -3,6 +3,7 @@ export interface Project {
   description: string;
   tags: string[];
   github?: string;
+  osf?: string;
   demo?: string;
 }
 
@@ -15,10 +16,10 @@ export const projects: Project[] = [
     github: "https://github.com/Jiahao-ZHU/cpt-cct-explorer-shiny",
   },
   {
-    title: "Particle Filter Toolbox",
+    title: "Particle Filter Pipeline",
     description:
-      "A Python package for applying Sequential Monte Carlo methods to cognitive models. Supports Auxiliary Particle Filters and parameter estimation.",
-    tags: ["Python", "NumPy", "Bayesian"],
+      "R scripts for applying Sequential Monte Carlo methods to cognitive models. Supports Auxiliary Particle Filters and fixed parameter estimation.",
+    tags: ["R", "SMC", "Bayesian"],
     github: "#",
   },
   {
