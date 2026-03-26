@@ -26,15 +26,29 @@ export default function ResearchPage() {
             <p className="text-[15px] leading-[1.7] text-text-secondary">
               {project.description}
             </p>
-            {project.pdf && (
-              <a
-                href={project.pdf}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block mt-2 text-[13px] text-accent underline underline-offset-2"
-              >
-                PDF
-              </a>
+            {(project.pdf || project.github) && (
+              <div className="flex gap-3 mt-2">
+                {project.pdf && (
+                  <a
+                    href={project.pdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[13px] text-accent underline underline-offset-2"
+                  >
+                    PDF
+                  </a>
+                )}
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[13px] text-accent underline underline-offset-2"
+                  >
+                    GitHub
+                  </a>
+                )}
+              </div>
             )}
           </article>
         ))}

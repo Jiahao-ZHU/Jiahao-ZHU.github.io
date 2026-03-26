@@ -6,9 +6,21 @@ export interface ResearchProject {
   period: string;
   description: string;
   pdf?: string;
+  github?: string;
 }
 
 export const researchProjects: ResearchProject[] = [
+  {
+    title: "Polymarket Prediction Accuracy: An Exploratory Analysis",
+    href: "/research#polymarket-calibration",
+    role: "Course Project",
+    institution: "Radboud University",
+    period: "2026",
+    description:
+      "Analyzed prediction market accuracy using 116,000+ resolved Polymarket markets from 2025. Evaluated forecast calibration across seven domains (Sports, Crypto, Politics, etc.) via Brier Score decomposition.",
+    pdf: "https://raw.githubusercontent.com/Jiahao-ZHU/polymarket-calibration/main/Final_Report.pdf",
+    github: "https://github.com/Jiahao-ZHU/polymarket-calibration",
+  },
   {
     title: "Dynamic Modelling of Latent Risk-Taking using Particle Filters",
     href: "/research#particle-filters",
