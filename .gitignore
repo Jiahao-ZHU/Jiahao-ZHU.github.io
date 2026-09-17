@@ -40,5 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Local engineering skill configuration
-/docs/agents/
+# Local documentation
+/docs/
