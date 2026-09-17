@@ -21,7 +21,11 @@ export default function PublicationsPage() {
               <h3 className="font-serif text-lg font-semibold leading-snug mb-1">
                 {pub.title}
               </h3>
-              <p className="text-sm text-text-secondary mb-1">{pub.authors}</p>
+              <p className="text-sm text-text-secondary mb-1">
+                {pub.authors.split(/(Zhu, J\.)/).map((part, index) =>
+                  part === "Zhu, J." ? <em key={index}>{part}</em> : part
+                )}
+              </p>
               <p className="text-sm text-text-secondary">
                 <em>{pub.venue}</em>, {pub.year}
                 {pub.status !== "published" && (
@@ -30,6 +34,16 @@ export default function PublicationsPage() {
                   </span>
                 )}
               </p>
+              {pub.doi && (
+                <a
+                  href={pub.doi}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-2 text-[13px] text-accent underline underline-offset-2"
+                >
+                  DOI
+                </a>
+              )}
             </article>
           ))}
         </div>

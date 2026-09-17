@@ -9,13 +9,12 @@ export interface Publication {
 }
 
 export const publications: Publication[] = [
-  // Add publications here as they become available
-  // Example:
-  // {
-  //   title: "Paper Title",
-  //   authors: "Zhu, J., Figner, B., & Chen, Z.",
-  //   venue: "Journal Name",
-  //   year: 2026,
-  //   status: "in-preparation",
-  // },
+  {
+    title: "Between-session chasing via time of return in online eCasino gambling",
+    authors: "Banerjee, N., Noël, X., Zhu, J., & Chen, Z.",
+    venue: "Journal of Behavioral Addictions",
+    year: 2026,
+    status: "published",
+    doi: "https://doi.org/10.1556/2006.2025.00454",
+  },
 ];

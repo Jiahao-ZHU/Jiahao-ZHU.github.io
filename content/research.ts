@@ -26,7 +26,7 @@ export const researchProjects: ResearchProject[] = [
     href: "/research#particle-filters",
     role: "Master's Thesis",
     institution: "Radboud University",
-    period: "2025 – present",
+    period: "2025 – 2026",
     description:
       "Challenging the assumption of risk-taking as a static trait. Developed a computational pipeline using Auxiliary Particle Filters to recover individual trial-by-trial trajectories of latent risk sensitivity.",
   },

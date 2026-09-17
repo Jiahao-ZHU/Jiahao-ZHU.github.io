@@ -21,16 +21,19 @@ export default function HomePage() {
             Jiahao Zhu
           </h1>
           <p className="text-base text-text-secondary mb-4">
-            Research Master&apos;s Student in Behavioural Science
+            PhD Candidate in Methodology and Statistics
             <br />
-            Radboud University, Nijmegen
+            Leiden University, Leiden
           </p>
           <p className="text-[15px] leading-[1.7] mb-5">
-            I study how decision-makers adapt to stochastic environments through
-            continuous interaction. My work bridges computational cognitive
-            modelling, risky decision-making, and dynamic systems&mdash;using
-            tools like hierarchical Bayesian statistics, state-space models, and
-            particle filters.
+            I develop methods that help behavioral researchers interpret machine
+            learning findings and combine evidence across studies. My PhD
+            research builds on RuleSHAP, which combines interpretable prediction
+            rules, Shapley values, and Bayesian uncertainty estimates. I aim to
+            extend this framework to multilevel data and derive standardized
+            effect sizes for meta-analysis, so that complex patterns discovered
+            by machine learning can contribute to cumulative knowledge about
+            human behavior.
           </p>
           <CnyGreeting />
           <div className="flex gap-5">
@@ -41,7 +44,7 @@ export default function HomePage() {
                 label: "Google Scholar",
                 href: "#",
               },
-              { label: "CV \u2193", href: "/assets/about/CV_Jiahao_2026_v2.pdf" },
+              { label: "CV \u2193", href: "/assets/about/Jiahao_Zhu_CV_2026-09-08.pdf" },
             ].map((link) => (
               <a
                 key={link.label}

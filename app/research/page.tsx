@@ -7,8 +7,9 @@ export default function ResearchPage() {
         Research
       </h1>
       <p className="text-text-secondary mb-10">
-        My research focuses on understanding how people make decisions under
-        uncertainty, using computational models and dynamic systems approaches.
+        My research focuses on Bayesian statistics and interpretable machine
+        learning. My previous work examined decision-making under uncertainty
+        using computational models and dynamic systems approaches.
       </p>
       <div className="space-y-10">
         {researchProjects.map((project) => (

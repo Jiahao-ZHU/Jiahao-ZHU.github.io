@@ -27,7 +27,7 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Jiahao Zhu",
   description:
-    "Research Master's student specialising in computational cognitive modelling, risky decision-making, and decision-making dynamics.",
+    "PhD candidate in Methodology and Statistics at Leiden University, focusing on Bayesian statistics and interpretable machine learning.",
 };
 
 export default function RootLayout({
